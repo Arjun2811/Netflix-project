@@ -1,0 +1,100 @@
+.loginscreen{
+    height: 100%;
+ position: relative;
+background: url("https://i.pinimg.com/736x/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg")  no-repeat;
+
+    background-size: cover;
+width:100%;   
+}
+.loginscreen_body>h1{
+    margin-bottom: 50px;
+    font-size:3rem;
+    font-weight: 5000;
+    
+   
+}
+loginscreen_body>h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.loginscreen_body>h3{
+    font-size: 1rem;
+    margin-top:20px;
+}
+.loginscreen_body{
+    color:white;
+    position: absolute;
+    top:20%;
+    padding:20px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:100%;
+    left:0;
+    right:0;
+    
+}
+
+.loginScreen_logo{
+
+    position: fixed;
+    width:150px;
+    left:0;
+    object-fit:contain;
+    padding-left:20px;
+    
+}
+.loginScreen_button{
+position:fixed;
+right:20px;
+top:10px;
+padding: 10px 20px;
+font-size: 1rem;
+color:white;
+background-color: #e50914;
+cursor: pointer;
+border:none;
+font-weight: 600;
+}
+
+
+
+.loginScreen_gradient{
+
+    height:100vw;
+    z-index: 1;
+    width:100%;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top,
+    
+rgba(0,0,0,0.8) 0,
+rgba(0,0,0,0) 60%,
+rgba(0,0,0,0.8) 100%
+
+    
+    );
+
+} 
+
+.loginscreen_input>form>input{
+padding:10px;
+outline-width:0;
+height:30px;
+width:30%;
+border:none;
+max-width:600px;
+}
+.loginscreen_getStarted{
+    padding:17px  20px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-size:0.9rem;
+    font-weight:600;
+    cursor: pointer ;
+}
+.loginscreen_input{
+
+    margin:20px;
+}
