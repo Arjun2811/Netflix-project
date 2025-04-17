@@ -1,0 +1,43 @@
+.MovieDescriptionScreen{
+    position:fixed;
+    background: url("https://i.pinimg.com/736x/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg")  no-repeat;
+    background-size: cover;
+height:100%;
+width:100%;
+
+}
+
+.MovieDescriptionBody{
+    color:white;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:20%;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    width:50%;
+    height:30%;
+
+    
+
+}
+.MovieDescriptionBody>h1{
+   padding-top:50px;
+}
+.MovieDescriptionBody>h2{
+    padding-top:15px;
+    color:rgb(186, 185, 185);
+    padding-bottom:10px
+ }
+ .MovieDescriptionBody>button{
+   
+    margin-top:15px;
+    cursor: pointer;
+    height:60px;
+    width:200px;
+    background-color: red;
+    color:white;
+    font-size:1rem;
+    border:none;
+    font-weight: 700;
+    border-radius: 5px;
+ }

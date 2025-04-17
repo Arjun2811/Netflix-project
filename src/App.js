@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import HomeScreen from './screens/HomeScreen';
+import MovieDescriptionScreen from './screens/MovieDescriptionScreen';
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,6 +14,7 @@ import { login, selectuser } from './features/counter/userSlice';
 import { logout } from './features/counter/userSlice';
 import { useSelector } from 'react-redux';
 import ProfileScreen from './screens/ProfileScreen';
+import ChatgptScreen from './screens/ChatgptScreen';
 
 
 function App() {
@@ -59,6 +61,10 @@ useEffect(()=>{
          <Route exact path="/profile" element={<ProfileScreen />} />
 
         <Route exact path="/" element={<HomeScreen />} />
+        <Route exact path="/movie/:id" element={<MovieDescriptionScreen />} />
+        <Route exact path="/chatgpt" element={<ChatgptScreen />} />
+
+
 
       </Routes>
 

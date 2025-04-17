@@ -15,7 +15,7 @@ Features
 5.Multiple subscription plans
 6.Storage of user subscription details (type, renewal date) in the database
 7.User-friendly Interface:
-  -Five main screens: Profile, Signup, Login, Home, and Plan selection
+  -7 main screens: Profile, Signup, Login, Home, ChatgptScreen, PlanScreen, Movie Description Screen
 8.Personalized Experience: User profiles with subscription information
 
 Technology Used
@@ -35,29 +35,25 @@ Prerequisites
 
 Setup Instructions
 1.Clone the repository:
- -git clone [repository-url]
- -cd [project-directory]
+git clone https://github.com/your-username/netflix-clone-arjun.git
+cd netflix-clone-arjun
+
 
 2.Install dependencies:
  -npm install
 
-3.Set up environment variables:
-1.Create a .env file in the root directory and add the following:
- -REACT_APP_TMDB_API_KEY=[Your TMDb API Key]
- -REACT_APP_FIREBASE_API_KEY=[Your Firebase API Key]
- -REACT_APP_STRIPE_PUBLIC_KEY=[Your Stripe Public Key]
 
-4.Set up Firebase:
+3.Set up Firebase:
  -Create a Firebase project and add your configuration to the app
 
-5.Set up Stripe:
+4.Set up Stripe:
   -Create a Stripe account and obtain your API keys
   -Configure Stripe in your backend to handle payments
 
-6.Start the development server:
+5.Start the development server:
   -npm start
 
-7.Open http://localhost:3000 in your browser to view the application
+6.Open http://localhost:3000 in your browser to view the application
 
 Usage
 1.Users can sign up or log in to access the full features of the application

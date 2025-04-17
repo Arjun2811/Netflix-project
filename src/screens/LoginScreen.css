@@ -37,12 +37,17 @@ loginscreen_body>h2{
 }
 
 .loginScreen_logo{
-
+    background-image: url('A2.jpg');
+    background-size: cover;
+border:none;
+top: 7px;
     position: fixed;
-    width:150px;
-    left:0;
+    width:90px;
+    height:90px;
+    left:10;
     object-fit:contain;
-    padding-left:20px;
+    /* padding-left:20px;
+    padding-top:10px; */
     
 }
 .loginScreen_button{
@@ -61,7 +66,7 @@ font-weight: 600;
 
 
 .loginScreen_gradient{
-
+    
     height:100vw;
     z-index: 1;
     width:100%;

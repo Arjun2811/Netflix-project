@@ -18,14 +18,19 @@
 }
 
 .nav_logo{
+    background-image: url('A1.jpg');
+    background-size: cover;
+border: none;
     position:fixed;
-    left:0;
-    top: 20px;
-    height:40px;
-    width:80px;
+    left:10;
+    top: 10px;
+    height:90px;
+    width:85px;
     object-fit: contain;
-    padding-left: 20px;
+    /* padding-left: 5px; */
+   
     cursor: pointer;
+    /* border: none; */
 
 }
 .nav_avtar{
@@ -36,7 +41,23 @@
 }
 .nav_black{
     background-color:black;
-    
-
-    
+     
+}
+.ChatGPT{
+   
+    position:fixed;
+  right:170px;
+  top: 25px;
+  height:30px;
+  width:90px;
+  object-fit: contain;
+  text-align:center;
+ background: rgba(0,0,0,0.5);
+  color: white;
+  border:none;
+  cursor:pointer;
+  font-weight: 700;
+  padding:auto;
+  
+   
 }
